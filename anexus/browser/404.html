@@ -1,16 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>Anexus Error</title>
-    <base href="404">
+    <base href="/404">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script>
+        try {
+            window.location.replace("https://anexustudios.com/");
+        } catch (error) { }
+    </script>
     <style>
         @font-face {
             font-family: Comfortaa;
-            src: url(fonts/Comfortaa-VariableFont_wght.ttf);
+            src: url(/assets/fonts/Comfortaa-VariableFont_wght.ttf);
         }
 
         body,
@@ -51,7 +56,7 @@
 </head>
 
 <body>
-    <a href="./" class="flex link flex-1">
+    <a href="https://anexustudios.com" class="flex link flex-1">
         <h2>404</h2>
         <svg class="size" viewBox="0 0 877 962" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path

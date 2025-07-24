@@ -1,7 +1,6 @@
 {
   "routes": {
     "/": {},
-    "/404": {},
     "/only-death": {},
     "/terms": {},
     "/void-reforest": {}
