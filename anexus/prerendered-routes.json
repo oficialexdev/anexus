@@ -1,8 +1,8 @@
 {
   "routes": {
     "/": {},
+    "/annunciated": {},
     "/contact": {},
-    "/only-death": {},
     "/terms": {},
     "/void-reforest": {}
   }
